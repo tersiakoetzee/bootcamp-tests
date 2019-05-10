@@ -3,6 +3,6 @@ describe("Greet Function",function(){
         assert.equal(greet("Sam"),"Hello, Sam");
 
          assert.equal(greet("7"),"Hello, 7");
-        // assert.deepEqual([Hello,sam],[Hello, sam]);
+        
     }) 
 })

@@ -1,6 +1,6 @@
 
 describe("Find Items Over ",function(){
-    it("Should return items left over",function(){
+    it("Should return quantity of items left over",function(){
 
         var itemList = [
             {name : 'apples', qty : 10},

@@ -1,5 +1,5 @@
 describe("From Items over",function(){
-    it("Should return Items that are over 20",function(){
+    it("Should return Items with a quantity over 20",function(){
 
        var results = [
            {name : 'pears', qty : 37},

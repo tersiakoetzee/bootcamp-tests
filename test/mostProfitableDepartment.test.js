@@ -1,5 +1,5 @@
 describe("From Profitable Department ",function(){
-    it("Should return Most Profitable Department ",function(){
+    it("Should return the most profitable department ",function(){
         assert.equal(("highestSale"),"highestSale");
     });
 })
