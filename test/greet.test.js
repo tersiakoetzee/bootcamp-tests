@@ -1,8 +1,7 @@
-describe("Greet Function",function(){
-    it("Should return 'Hello, Sam'",function(){
-        assert.equal(greet("Sam"),"Hello, Sam");
+describe("Greet Function", function () {
 
-         assert.equal(greet("7"),"Hello, 7");
-        
-    }) 
+    it("should return 'Hello, Sam'", function () {
+        assert.equal(greet("Sam"), "Hello, Sam");
+    });
+
 })

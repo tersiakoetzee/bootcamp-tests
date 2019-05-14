@@ -1,4 +1,4 @@
-function isWeekday(weekday){
+function isWeekDay(weekday){
     if(weekday.startsWith('M')){
        return true;
       

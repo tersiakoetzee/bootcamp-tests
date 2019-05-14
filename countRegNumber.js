@@ -1,4 +1,4 @@
-function allFromTown(townreg,loc){
+function countRegNumber(townreg,loc){
     var town = townreg.split(',')
     console.log(townreg,loc)
     var regnumber = []

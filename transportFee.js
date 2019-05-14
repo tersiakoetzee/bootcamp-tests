@@ -1,5 +1,5 @@
 var transportFee = function(shift){
-    console.log(shift)
+    // console.log(shift)
   if(shift === 'morning'){
   return 'R20';
   }

@@ -1,8 +1,15 @@
-describe("from where",function(){
-    it("Should return which town car is from by registration",function(){
-        assert.equal(("ca"),"ca");
-        assert.equal(("cj"),"cj");
-        assert.equal(("cy"),"cy");
+describe("the fromWhere function",function(){
+    it("Should return a cars registration number and return the town the car is from",function(){
+        assert.equal(fromWhere("CY"), "Bellville");
+    })
+    it("should return a cars registration number and return the town the car is from", function(){
+        assert.equal(fromWhere("CJ"), "Paarl");
+    })
+    it("should return a cars registration number and return the town the car is from", function(){
+        assert.equal(fromWhere("CA"), "Cape Town");
+    })
+    it("should return a cars registration number and return the town the car is from", function(){
+        assert.equal(fromWhere(""), "Some other place!")
     });
 })
 

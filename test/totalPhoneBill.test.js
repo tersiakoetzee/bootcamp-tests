@@ -1,7 +1,15 @@
-describe("Total phone Bill",function(){
-    it("Should return total bill for the data used",function(){
-        assert.equal(("R7.45"),"R7.45");
+describe("the totalPhoneBill function",function(){
 
-        
+it("should return total for all the data used",function(){
+       assert.equal(totalPhoneBill("sms, sms, sms"),"R1.95");
+
+})
+ it("should return total for all the data used",function(){
+assert.equal(totalPhoneBill("call, call"),"R5.50")
+ 
+})
+    it("should return total for all the data used",function(){
+        assert.equal(totalPhoneBill("sms, sms, sms, call, call"), "R7.45");
+ 
     });
 })

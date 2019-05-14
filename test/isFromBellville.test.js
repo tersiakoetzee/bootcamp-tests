@@ -1,6 +1,12 @@
 
-    describe("From Bellville",function(){
-        it("Should return true'If registration is from Bellville'",function(){
-            assert.equal(("cy"),"cy");
-        });
-    })
+describe("The isFromBellville function", function () {
+
+    it("should return true if the registration is from Bellville", function () {
+        assert.equal(true, isFromBellville("CY 123-123"));
+    });
+
+    it("should return false if the registration is not from Bellville", function () {
+        assert.equal(false, isFromBellville("CA 123-123"));
+    });
+
+}); 

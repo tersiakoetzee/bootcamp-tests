@@ -1,5 +1,11 @@
-describe("From Profitable Department ",function(){
-    it("Should return the most profitable department ",function(){
-        assert.equal(("highestSale"),"highestSale");
+describe("the mostProfitableDepartment function", function () {
+
+    it("Should return true for the most profitable department ", function () {
+        assert.equal(("highestSale outdoor sales 18007 Thursday"), "highestSale outdoor sales 18007 Thursday");
     });
+
+    it("should return false for the least profitable department", function () {
+        assert.equal(("leastProfitable hardware sales 1500 Wednesday"), "leastProfitable hardware sales 1500 Wednesday");
+    
+})
 })

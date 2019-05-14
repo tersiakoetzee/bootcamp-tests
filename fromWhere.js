@@ -6,7 +6,7 @@ var fromWhere = function(town){
         return 'Paarl';
       case 'CA':
         return 'Cape Town';
-      default:
-        return 'Some other place!';
+       default:
+         return 'Some other place!';
       }
     }
