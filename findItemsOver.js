@@ -18,4 +18,3 @@ var list = [
   {name : 'bananas', qty : 27},
   {name : 'apples', qty : 3},
 ];
-findItemsOver20(list);
