@@ -1,4 +1,4 @@
-describe("the fromWhere function",function(){
+describe("the town fromWhere a car comes function",function(){
     it("Should return a cars registration number and return the town the car is from",function(){
         assert.equal(fromWhere("CY"), "Bellville");
     })

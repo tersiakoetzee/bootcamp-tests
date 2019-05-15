@@ -5,6 +5,7 @@ function findItemsOver20(itemList){
  if (itemList.qty > 20){
    over20.push(itemList.qty);
 }
+  console.log(over20)
  return over20;
 }
 
@@ -16,8 +17,5 @@ var itemList = [
 ];
 
 
-var re = findItemsOver20(itemList);
-var results = [
-  {name : 'pears', qty : 37},
-  {name : 'bananas', qty : 27},
-];
+var results = findItemsOver20(itemList);
+

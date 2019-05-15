@@ -1,13 +1,11 @@
-function findItemsOver(list){
+function findItemsOver(itemList){
   
   var over = [];
-for(var i=0;i<list.length;i++){
-   var itemList = list[i]
-   console.log(itemList.qty)
- if (itemList > over){
-   over.push(list.qty);
+  
+if (itemList.qty > 20){
+  over20.push(itemList.qty);
 }
-}
+
   console.log(over)
   return over;
 }
@@ -17,4 +15,9 @@ var list = [
   {name : 'pears', qty : 37},
   {name : 'bananas', qty : 27},
   {name : 'apples', qty : 3},
+];
+var re = findItemsOver(itemList);
+var results = [
+  {name : 'pears', qty : 37},
+  {name : 'bananas', qty : 27},
 ];

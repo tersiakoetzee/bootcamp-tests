@@ -1,7 +1,7 @@
 describe("the findItemsOver20 function", function () {
 
     it("should return if items have a quantity is more than 20", function () {
-        assert.equal(findItemsOver20("pears"), "")
+        assert.deepEqual(findItemsOver20(itemList), results)
     })
     it("should return if items have a quantity is more than 20", function () {
         assert.equal(findItemsOver20("bananas"), "")
