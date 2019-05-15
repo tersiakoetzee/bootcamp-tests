@@ -4,7 +4,7 @@ describe("The isWeekDay function", function () {
         assert.equal(true, isWeekDay("Monday"));
     });
 
-    it("should return false if day is not a weekday", function () {
+    it("should return false if day is weekend", function () {
         assert.equal(false, isWeekDay("Saturday"));
     })
 })
